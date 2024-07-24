@@ -1,0 +1,12 @@
+{
+  "name": "RandomCallScheduler",
+  "description": "Schedule random calls to employees",
+  "schedule_expression": "rate(1 hour)",
+  "state": "ENABLED",
+  "targets": [
+    {
+      "arn": "arn:aws:lambda:region:account-id:function:function-name",
+      "id": "RandomCallTarget"
+    }
+  ]
+}

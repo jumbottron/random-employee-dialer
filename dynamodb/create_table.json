@@ -1,0 +1,38 @@
+{
+  "TableName": "Employees",
+  "KeySchema": [
+    {
+      "AttributeName": "EmployeeID",
+      "KeyType": "HASH"
+    }
+  ],
+  "AttributeDefinitions": [
+    {
+      "AttributeName": "EmployeeID",
+      "AttributeType": "S"
+    }
+  ],
+  "ProvisionedThroughput": {
+    "ReadCapacityUnits": 5,
+    "WriteCapacityUnits": 5
+  }
+}
+1~{
+  "TableName": "Employees",
+  "KeySchema": [
+    {
+      "AttributeName": "EmployeeID",
+      "KeyType": "HASH"
+    }
+  ],
+  "AttributeDefinitions": [
+    {
+      "AttributeName": "EmployeeID",
+      "AttributeType": "S"
+    }
+  ],
+  "ProvisionedThroughput": {
+    "ReadCapacityUnits": 5,
+    "WriteCapacityUnits": 5
+  }
+}
