@@ -27,7 +27,7 @@ This repository contains the code and setup instructions for a random employee d
    - Create resources and methods to trigger Lambda functions.
 
 5. Schedule random calls using CloudWatch Events:
-   - Use the provided event_rule.json to schedule Lambda triggers.
+   - Use the provided `event_rule.json` to schedule Lambda triggers.
 
 6. Configure IAM roles and permissions:
    - Ensure Lambda functions have necessary permissions.
@@ -39,6 +39,10 @@ This repository contains the code and setup instructions for a random employee d
 3. Deploy the Lambda functions and API Gateway setup.
 4. Schedule the CloudWatch Events rule.
 
+## Documentation
+
+For detailed setup and configuration instructions, please refer to the [Wiki](https://github.com/jumbottron/random-employee-dialer/wiki).
+
 ## Contributing
 
 Feel free to open issues or submit pull requests for improvements.
@@ -46,4 +50,3 @@ Feel free to open issues or submit pull requests for improvements.
 ## License
 
 This project is licensed under the MIT License.
-
